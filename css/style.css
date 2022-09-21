@@ -1,0 +1,98 @@
+/* Common Css Start  */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style-type: none;
+}
+/* Common Css End */
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+.container{
+    width: 1172px;
+    margin: auto;
+}
+/* nav Section Css Start */
+nav {
+    background-color: #02918b;
+}
+nav .container{
+    display: flex;
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 80%;
+}
+nav .menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav .menu ul li a{
+    display: inline-block;
+    font-size: 12px;
+    color: white;
+    font-weight: 800;
+    padding: 26px 25px;
+    text-transform: uppercase;
+    transition: .5s;
+
+}
+nav .menu ul li a:hover{
+    color: #cfc91d;
+    background-color: blue;
+}
+/* nav section css End */
+/* baner Css Start */
+#banner{
+    background-image: url(../images/background.jpg);
+    height: 728px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+#banner .container{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+#banner h3{
+    font-size: 30px;
+    font-weight: 400;
+}
+#banner h1{
+    font-size: 68px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 30px;
+}
+#banner p{
+    font-size: 18px;
+}
+#banner img{
+    display: block;
+    margin:50px auto;
+}
+#banner a{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 800;
+    color: black;
+    background-color: #cfc91d;
+    padding: 17px 40px;
+    text-transform: uppercase;
+    letter-spacing: 7px;
+}
+#banner a:hover{
+    background-color: aquamarine;
+}
